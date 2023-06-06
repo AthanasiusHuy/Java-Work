@@ -10,7 +10,6 @@ public class Task10 {
         int num3 = (digit / 10) % 10;
         int num4 = digit % 10;
         digit = num4 * 1000 + num3 * 100 + num2 * 10 + num1;
-
         System.out.println("Reversed number: " + digit);
     }
 }
