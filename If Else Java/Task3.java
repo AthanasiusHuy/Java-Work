@@ -8,7 +8,6 @@ public class Task3 {
         int total = quan * 100;
         if (quan > 10) {
             System.out.println("Price " + (total - (total * 10 / 100)));
-
         } else {
             System.out.println("Price " + total);
         }
